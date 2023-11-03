@@ -13,6 +13,7 @@ export default function FormFetchPokemonData() {
     renderPokemon: renderPokemon,
     getPokemonData: getPokemonData,
   });
+
   return (
     <form className={styles.form} onSubmit={handleSubmitFetchPokemon}>
       <SearchPokemon />
