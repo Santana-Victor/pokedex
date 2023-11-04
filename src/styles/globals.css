@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
 
+:root {
+  --pokemon-id: #aaaaaa;
+  --pokemon-name: #3a444d;
+  --border-color: #000000;
+  --border-color-input: #333333;
+  --txt-color-input: #3a444d;
+  --color-box-shadow-primary: #222222;
+  --color-box-shadow-secundary: #000000;
+  --color-box-shadow-tertiary: #888888;
+  --color-box-shadow-quaterary: #333333;
+  --txt-color-button: #ffffff;
+  --bg-color-btn: #444444;
+}
+
 body {
   font-family: "Oxanium", sans-serif;
   text-align: center;

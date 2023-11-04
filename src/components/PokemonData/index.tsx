@@ -7,7 +7,7 @@ export default function PokemonData() {
 
   return (
     <h1 className={styles.pokemon_data}>
-      <span className={styles.pokemon_id}>{pokemonData.id}</span> -{" "}
+      <span>{pokemonData.id}</span> -{" "}
       <span className={styles.pokemon_name}>{pokemonData.name}</span>
     </h1>
   );
