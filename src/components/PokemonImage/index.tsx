@@ -6,10 +6,14 @@ export default function PokemonImage() {
   const pokemonData = usePokemonData((state) => state.pokemonData);
 
   return (
-    <img
-      className={styles.pokemon_image}
-      src={pokemonData.image}
-      alt={pokemonData.name}
-    />
+    <>
+      {pokemonData.image !== "" && (
+        <img
+          className={styles.pokemon_image}
+          src={pokemonData.image}
+          alt={pokemonData.name}
+        />
+      )}
+    </>
   );
 }
